@@ -124,6 +124,7 @@ func installClean(ctx Context, config Config) {
 		hostOut("vts-core"),
 		hostCommonOut("obj/PACKAGING"),
 		productOut("*Changelog.txt"),
+		productOut("manifest.xml*"),
 		productOut("*.img"),
 		productOut("*.zip"),
 		productOut("*.zip.sha256"),
