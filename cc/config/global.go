@@ -297,7 +297,7 @@ var (
 		// project itself.
 		"-Wno-deprecated-dynamic-exception-spec",
 
-		// YAAP additions since we will be minimally updating external platform
+		// NAAP additions since we will be minimally updating external platform
 		"-Wno-error=deprecated-non-prototype",
 		"-Wno-error=strict-prototypes",
 		"-Wno-error=enum-conversion",
